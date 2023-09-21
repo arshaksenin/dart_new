@@ -1,0 +1,23 @@
+void main(){
+
+int a = 7 , b = 6;
+print('$a + b = ${a + b}');
+print('$a % b = ${a % b}');
+print("$a / b = ${a / b}");
+ print('$a + b = ${a + b}');
+ print('$a + b = ${a + B}');
+
+
+
+
+
+int x =13 , y =15;
+print('x += y = ${x=y}');
+print('x %= y = ${x%y}');
+print('x /= y = ${x/y}');
+print('x *= y = ${x*y}');
+
+ 
+
+
+}
