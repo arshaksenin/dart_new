@@ -19,10 +19,10 @@ void main()
   print('------------------------------------------------------------------');
 
   Student st2 = Student();
-  print("Student 2 name = ${st1.name = 'amal'}");
-  print("Student 2 age = ${st1.age = 21}");
-  print("Student 2 email =${st1.email = "suni@gmail.com"}");
-  print("Student 2 qualification =${st1.qualification = "bba"}");
+  print("Student 2 name = ${st2.name = 'amal'}");
+  print("Student 2 age = ${st2.age = 21}");
+  print("Student 2 email =${st2.email = "suni@gmail.com"}");
+  print("Student 2 qualification =${st2.qualification = "bba"}");
   
 }
 
