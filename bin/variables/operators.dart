@@ -63,7 +63,7 @@ print('k is! String');
   ///   if expression 1 is not null expression1 will execute )
 
 var result = (username == "Admin" && password == "aju1234") ?
-              'Welcome User' : 'username or password Mismatch';
+  'Welcome User' : 'username or password Mismatch';
 
 print(result);
 
