@@ -27,7 +27,7 @@ int func4(int a,String b,double c){
 void func5() => print("hello");
 
 ///lambda function with parameter and without return type
-void func6(int a,u=int b) =>print('sum = ${a+b}');
+void func6(int a,int b) =>print('sum = ${a+b}');
 
 ///lambda function without parameter and with return type
 int func7() => 10;
