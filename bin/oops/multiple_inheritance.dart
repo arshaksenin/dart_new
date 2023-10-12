@@ -12,13 +12,10 @@ abstract class Mother{
 }
 
 ///clas child extends fatgher, mother{}- this not supporrted in dart
-class  Child implements Father,Mother {
+abstract class  Child implements Father,Mother {
 
   void cdetails(String name, int age, int phone) {
-    print("child details");
-    print("name   = $name");
-    print("age   = $age");
-    print("phone   = $phone");
+    
   }
     @override
   void fdetails(String name, String job, int phone) {
@@ -48,27 +45,31 @@ class  Child implements Father,Mother {
 
   @override
   void cdetails(String name, int age, int phone) {
-    // TODO: implement cdetails
+    
   }
   
   @override
   void fdetails(String name, String job, int phone) {
-    // TODO: implement fdetails
+    
   }
   
   @override
   void mdetails(String name, String job, int phone) {
-    // TODO: implement mdetails
+    
   }
     
 }
 
 void main(){
- Child obj = Child();
+ Housename obj = Housename();
  obj.cdetails('ronny', 24 , 980897997);
  print('----------------------------------');
  obj.fdetails("johnson", "finance", 9908056799);
  print('--------------------------------------');
  obj.mdetails("caroline", 'homemaker', 90809076098);
+ print('--------------------------------------');
+ obj.hdetails("tharyail", "maneri", 679325);
+
+
 
 }
