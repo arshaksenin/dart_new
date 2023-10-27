@@ -1,5 +1,3 @@
-import 'dart:async';
-
 void func1(){
   print('Defauklt function func1');
 
